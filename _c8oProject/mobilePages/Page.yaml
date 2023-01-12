@@ -60,6 +60,33 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓Div [ngx.components.UIDynamicElement-1673521113790]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Text1 [ngx.components.UIText-1673521067313]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: 'plain:Project version from i18n file : '
+    ↓Text [ngx.components.UIText-1673520579087]: 
+      i18n: true
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:project_version
+  ↓Div1 [ngx.components.UIDynamicElement-1673521124313]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓Text1 [ngx.components.UIText-1673521124316]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: 'plain:Project version from sequence call : '
+    ↓Text [ngx.components.UIText-1673521124319]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: source:{"filter":"Sequence","project":"project_version","input":"","model":{"data":[{"sequence":"project_version.ReturnVersion","marker":""}],"path":"?.version","prefix":"","suffix":"","custom":"","useCustom":false}}
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
@@ -89,3 +116,7 @@ title: First page
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
               - MobileSmartSourceType: plain:Action 2
+↓PageEvent [ngx.components.UIPageEvent-1673521254959]: 
+  viewEvent: onWillEnter
+  ↓CallSequence [ngx.components.UIDynamicAction-1673521303823]: 
+    beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:project_version.ReturnVersion"}'

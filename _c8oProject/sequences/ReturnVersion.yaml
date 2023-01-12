@@ -1,0 +1,9 @@
+↓getProjectVersion [steps.SimpleStep-1673520083844]: 
+  expression: |
+    'log.debug(">>>> Project name: "+context.getProjectName());
+    prj=com.twinsoft.convertigo.engine.Engine.theApp.databaseObjectsManager.getOriginalProjectByName(context.getProjectName()); 
+    v=prj.getVersion();
+    log.debug(">>>> v: "+v);'
+↓jElement [steps.ElementStep-1673520083847]: 
+  expression: v || "1.0"
+  nodeName: version
