@@ -1,5 +1,5 @@
 ↑isRoot: true
-comment: My First Page as root page
+comment: Project version display
 preloadPriority: high
 scriptContent: 
   - xmlizable: 
@@ -40,7 +40,7 @@ title: First page
         textValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: plain:Page
+            - MobileSmartSourceType: plain:Project version
     ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
       tagName: ion-buttons
@@ -69,6 +69,7 @@ title: First page
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
           - MobileSmartSourceType: 'plain:Project version from i18n file : '
     ↓Text [ngx.components.UIText-1673520579087]: 
+      comment: Project version from i18n file
       i18n: true
       textValue: 
         - xmlizable: 
@@ -83,6 +84,7 @@ title: First page
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
           - MobileSmartSourceType: 'plain:Project version from sequence call : '
     ↓Text [ngx.components.UIText-1673521124319]: 
+      comment: Project version from sequence call
       textValue: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType

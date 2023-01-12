@@ -1,3 +1,4 @@
+comment: Return value from project 'Version' property
 ↓getProjectVersion [steps.SimpleStep-1673520083844]: 
   expression: |
     'log.debug(">>>> Project name: "+context.getProjectName());

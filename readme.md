@@ -3,7 +3,7 @@
 
 # project_version
 
-Convertigo NGX builder Project
+Convertigo NGX Project thaty returns project version
 
 
 For more technical informations : [documentation](./project.md)
@@ -23,13 +23,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     project_version=C:/Convertigo/Studio 8.1.0/workspace/project_version/.git:branch=master
+     project_version=https://github.com/convertigo/c8oprj-sample-project_version.git:branch=master
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     project_version=C:/Convertigo/Studio 8.1.0/workspace/project_version//archive/master.zip
+     project_version=https://github.com/convertigo/c8oprj-sample-project_version/archive/master.zip
      ```
      </td></tr>
     </table>
@@ -44,7 +44,7 @@ Describes the mobile application global properties
 
 #### Page
 
-My First Page as root page
+Project version display
 
 
 

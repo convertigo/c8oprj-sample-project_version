@@ -1,6 +1,6 @@
 ↑convertigo: 8.1.0.m006
 ↓project_version [core.Project]: 
-  comment: Convertigo NGX builder Project
+  comment: Convertigo NGX Project thaty returns project version
   corsOrigin: =Origin
   version: 1.4
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
