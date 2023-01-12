@@ -9,6 +9,8 @@ Convertigo NGX Project thaty returns project version
 For more technical informations : [documentation](./project.md)
 
 - [Installation](#installation)
+- [Sequences](#sequences)
+    - [ReturnVersion](#returnversion)
 - [Mobile Application](#mobile-application)
     - [Pages](#pages)
         - [Page](#page)
@@ -36,9 +38,15 @@ For more technical informations : [documentation](./project.md)
 3. Click the `Finish` button. This will automatically import the __project_version__ project
 
 
+## Sequences
+
+### ReturnVersion
+
+Return value from project 'Version' property
+
 ## Mobile Application
 
-Describes the mobile application global properties
+Shows how to display project's version
 
 ### Pages
 
